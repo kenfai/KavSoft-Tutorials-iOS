@@ -18,18 +18,28 @@ struct Home: View {
     @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 3.141, longitude: 101.68653), latitudinalMeters: 10000, longitudinalMeters: 10000)
     @State var offset: CGFloat = 0
     
+    @State var startLocationY: CGFloat = 0
+    @State var translationHeight: CGFloat = 0
+    @State var translationWidth: CGFloat = 0
+    
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
             Map(coordinateRegion: $region)
                 .ignoresSafeArea(.all, edges: .all)
             
             GeometryReader { geo in
+                Text("width:\(geo.frame(in: .global).width) height:\(geo.frame(in: .global).height) maxX:\(geo.frame(in: .global).maxX) midX:\(geo.frame(in: .global).midX) midY:\(geo.frame(in: .global).midY) maxY:\(geo.frame(in: .global).maxY) startLocation.y:\(startLocationY) translation.width:\(translationWidth) translation.height:\(translationHeight) offset:\(offset)")
+                
                 // to read frame height
                 BottomSheet(offset: $offset, value: (-geo.frame(in: .global).height + 150))
                     .offset(y: geo.frame(in: .global).height - 140)
                 // adding Gesture
                     .offset(y: offset)
                     .gesture(DragGesture().onChanged({ value in
+                        startLocationY = value.startLocation.y
+                        translationHeight = value.translation.height
+                        translationWidth = value.translation.width
+                        
                         withAnimation {
                             // checking Scroll direction
                             // scrolling upwards
