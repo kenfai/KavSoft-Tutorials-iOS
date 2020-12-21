@@ -12,4 +12,5 @@ Building REST API with GET, POST, DELETE that connects to Laravel API backend(co
 
 ### Reference
 
-https://www.youtube.com/watch?v=1g-6DutThK0
+- https://www.youtube.com/watch?v=1g-6DutThK0
+- https://www.appsdeveloperblog.com/http-post-request-example-in-swift/
