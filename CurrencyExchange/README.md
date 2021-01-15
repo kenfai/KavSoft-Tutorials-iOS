@@ -9,4 +9,5 @@ Currency Exchange App With JSON API Using SwiftUI 2.0
 
 ### Reference
 
-https://www.youtube.com/watch?v=0VFg-rmi_cY
+- https://www.youtube.com/watch?v=0VFg-rmi_cY
+- https://api.exchangeratesapi.io/latest?base=USD
