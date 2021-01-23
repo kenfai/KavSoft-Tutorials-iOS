@@ -34,6 +34,8 @@ Add the **FirebaseAuth** Framework to your Xcode Project.
 
 Add the GoogleService-Info.plist `REVERSED_CLIENT_ID` value to your Xcode project > Info > URL Types > **URL Schemes**
 
+<img width="1190" alt="xcode-google-plist-reversed-client-id" src="https://user-images.githubusercontent.com/3436468/105577197-f7547000-5db2-11eb-8b42-c6db43729b83.png">
+
 <img width="1400" alt="xcode-url-types-url-schemes" src="https://user-images.githubusercontent.com/3436468/105577205-fde2e780-5db2-11eb-824b-36bb95904b35.png">
 
 ### Reference
