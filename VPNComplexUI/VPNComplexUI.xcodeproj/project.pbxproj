@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5250244225CD571200905088 /* VPNComplexUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250244125CD571200905088 /* VPNComplexUIApp.swift */; };
+		5250244425CD571200905088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250244325CD571200905088 /* ContentView.swift */; };
+		5250244625CD571300905088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250244525CD571300905088 /* Assets.xcassets */; };
+		5250244925CD571300905088 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250244825CD571300905088 /* Preview Assets.xcassets */; };
+		5250245325CD595C00905088 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250245225CD595C00905088 /* Home.swift */; };
+		5250245825CD5A9E00905088 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250245725CD5A9E00905088 /* Server.swift */; };
+		5250245C25CD70EA00905088 /* Rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5250245B25CD70EA00905088 /* Rings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5250243E25CD571200905088 /* VPNComplexUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNComplexUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250244125CD571200905088 /* VPNComplexUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNComplexUIApp.swift; sourceTree = "<group>"; };
+		5250244325CD571200905088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5250244525CD571300905088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5250244825CD571300905088 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5250244A25CD571300905088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250245225CD595C00905088 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5250245725CD5A9E00905088 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		5250245B25CD70EA00905088 /* Rings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5250243B25CD571200905088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5250243525CD571200905088 = {
+			isa = PBXGroup;
+			children = (
+				5250244025CD571200905088 /* VPNComplexUI */,
+				5250243F25CD571200905088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5250243F25CD571200905088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5250243E25CD571200905088 /* VPNComplexUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5250244025CD571200905088 /* VPNComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				5250245625CD5A9400905088 /* Model */,
+				5250245125CD595000905088 /* View */,
+				5250244125CD571200905088 /* VPNComplexUIApp.swift */,
+				5250244325CD571200905088 /* ContentView.swift */,
+				5250244525CD571300905088 /* Assets.xcassets */,
+				5250244A25CD571300905088 /* Info.plist */,
+				5250244725CD571300905088 /* Preview Content */,
+			);
+			path = VPNComplexUI;
+			sourceTree = "<group>";
+		};
+		5250244725CD571300905088 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5250244825CD571300905088 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5250245125CD595000905088 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5250245225CD595C00905088 /* Home.swift */,
+				5250245B25CD70EA00905088 /* Rings.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5250245625CD5A9400905088 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5250245725CD5A9E00905088 /* Server.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5250243D25CD571200905088 /* VPNComplexUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250244D25CD571300905088 /* Build configuration list for PBXNativeTarget "VPNComplexUI" */;
+			buildPhases = (
+				5250243A25CD571200905088 /* Sources */,
+				5250243B25CD571200905088 /* Frameworks */,
+				5250243C25CD571200905088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNComplexUI;
+			productName = VPNComplexUI;
+			productReference = 5250243E25CD571200905088 /* VPNComplexUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5250243625CD571200905088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5250243D25CD571200905088 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5250243925CD571200905088 /* Build configuration list for PBXProject "VPNComplexUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5250243525CD571200905088;
+			productRefGroup = 5250243F25CD571200905088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5250243D25CD571200905088 /* VPNComplexUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5250243C25CD571200905088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250244925CD571300905088 /* Preview Assets.xcassets in Resources */,
+				5250244625CD571300905088 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5250243A25CD571200905088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250244425CD571200905088 /* ContentView.swift in Sources */,
+				5250245C25CD70EA00905088 /* Rings.swift in Sources */,
+				5250245325CD595C00905088 /* Home.swift in Sources */,
+				5250245825CD5A9E00905088 /* Server.swift in Sources */,
+				5250244225CD571200905088 /* VPNComplexUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5250244B25CD571300905088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5250244C25CD571300905088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5250244E25CD571300905088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VPNComplexUI/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VPNComplexUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.VPNComplexUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5250244F25CD571300905088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VPNComplexUI/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VPNComplexUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.VPNComplexUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5250243925CD571200905088 /* Build configuration list for PBXProject "VPNComplexUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250244B25CD571300905088 /* Debug */,
+				5250244C25CD571300905088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5250244D25CD571300905088 /* Build configuration list for PBXNativeTarget "VPNComplexUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250244E25CD571300905088 /* Debug */,
+				5250244F25CD571300905088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5250243625CD571200905088 /* Project object */;
+}
