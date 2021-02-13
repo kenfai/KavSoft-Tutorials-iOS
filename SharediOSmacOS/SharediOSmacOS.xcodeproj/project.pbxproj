@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FA3AFC25D7E15300AB3EF0 /* SharediOSmacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3AE925D7E15200AB3EF0 /* SharediOSmacOSApp.swift */; };
+		52FA3AFD25D7E15300AB3EF0 /* SharediOSmacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3AE925D7E15200AB3EF0 /* SharediOSmacOSApp.swift */; };
+		52FA3AFE25D7E15300AB3EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3AEA25D7E15200AB3EF0 /* ContentView.swift */; };
+		52FA3AFF25D7E15300AB3EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3AEA25D7E15200AB3EF0 /* ContentView.swift */; };
+		52FA3B0025D7E15300AB3EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FA3AEB25D7E15300AB3EF0 /* Assets.xcassets */; };
+		52FA3B0125D7E15300AB3EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FA3AEB25D7E15300AB3EF0 /* Assets.xcassets */; };
+		52FA3B1B25D7E54800AB3EF0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B1A25D7E54800AB3EF0 /* LoginViewModel.swift */; };
+		52FA3B1F25D7E62700AB3EF0 /* LoginButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B1E25D7E62700AB3EF0 /* LoginButtonModifier.swift */; };
+		52FA3B2325D7E72500AB3EF0 /* LoginViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2225D7E72500AB3EF0 /* LoginViewModifier.swift */; };
+		52FA3B2725D7E76C00AB3EF0 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2625D7E76C00AB3EF0 /* Register.swift */; };
+		52FA3B2B25D7EBE400AB3EF0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2A25D7EBE400AB3EF0 /* Login.swift */; };
+		52FA3B2F25D7ED3900AB3EF0 /* SideLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2E25D7ED3900AB3EF0 /* SideLoginView.swift */; };
+		52FA3B3525D7FB9800AB3EF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B3425D7FB9800AB3EF0 /* Home.swift */; };
+		52FA3B3825D7FBEE00AB3EF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B3425D7FB9800AB3EF0 /* Home.swift */; };
+		52FA3B3B25D7FBF000AB3EF0 /* SideLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2E25D7ED3900AB3EF0 /* SideLoginView.swift */; };
+		52FA3B3E25D7FBF200AB3EF0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2A25D7EBE400AB3EF0 /* Login.swift */; };
+		52FA3B4125D7FBF500AB3EF0 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2625D7E76C00AB3EF0 /* Register.swift */; };
+		52FA3B4425D7FBF700AB3EF0 /* LoginViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B2225D7E72500AB3EF0 /* LoginViewModifier.swift */; };
+		52FA3B4725D7FBF900AB3EF0 /* LoginButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B1E25D7E62700AB3EF0 /* LoginButtonModifier.swift */; };
+		52FA3B4A25D7FBFC00AB3EF0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA3B1A25D7E54800AB3EF0 /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52FA3AE925D7E15200AB3EF0 /* SharediOSmacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharediOSmacOSApp.swift; sourceTree = "<group>"; };
+		52FA3AEA25D7E15200AB3EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52FA3AEB25D7E15300AB3EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FA3AF025D7E15300AB3EF0 /* SharediOSmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharediOSmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA3AF325D7E15300AB3EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FA3AF825D7E15300AB3EF0 /* SharediOSmacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharediOSmacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FA3AFA25D7E15300AB3EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FA3AFB25D7E15300AB3EF0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		52FA3B1A25D7E54800AB3EF0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		52FA3B1E25D7E62700AB3EF0 /* LoginButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonModifier.swift; sourceTree = "<group>"; };
+		52FA3B2225D7E72500AB3EF0 /* LoginViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModifier.swift; sourceTree = "<group>"; };
+		52FA3B2625D7E76C00AB3EF0 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		52FA3B2A25D7EBE400AB3EF0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		52FA3B2E25D7ED3900AB3EF0 /* SideLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideLoginView.swift; sourceTree = "<group>"; };
+		52FA3B3425D7FB9800AB3EF0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FA3AED25D7E15300AB3EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA3AF525D7E15300AB3EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FA3AE325D7E15200AB3EF0 = {
+			isa = PBXGroup;
+			children = (
+				52FA3AE825D7E15200AB3EF0 /* Shared */,
+				52FA3AF225D7E15300AB3EF0 /* iOS */,
+				52FA3AF925D7E15300AB3EF0 /* macOS */,
+				52FA3AF125D7E15300AB3EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FA3AE825D7E15200AB3EF0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3B0D25D7E44100AB3EF0 /* ViewModel */,
+				52FA3B0C25D7E43B00AB3EF0 /* View */,
+				52FA3AE925D7E15200AB3EF0 /* SharediOSmacOSApp.swift */,
+				52FA3AEA25D7E15200AB3EF0 /* ContentView.swift */,
+				52FA3AEB25D7E15300AB3EF0 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		52FA3AF125D7E15300AB3EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3AF025D7E15300AB3EF0 /* SharediOSmacOS.app */,
+				52FA3AF825D7E15300AB3EF0 /* SharediOSmacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FA3AF225D7E15300AB3EF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3AF325D7E15300AB3EF0 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		52FA3AF925D7E15300AB3EF0 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3AFA25D7E15300AB3EF0 /* Info.plist */,
+				52FA3AFB25D7E15300AB3EF0 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		52FA3B0C25D7E43B00AB3EF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3B1E25D7E62700AB3EF0 /* LoginButtonModifier.swift */,
+				52FA3B2225D7E72500AB3EF0 /* LoginViewModifier.swift */,
+				52FA3B2625D7E76C00AB3EF0 /* Register.swift */,
+				52FA3B2A25D7EBE400AB3EF0 /* Login.swift */,
+				52FA3B2E25D7ED3900AB3EF0 /* SideLoginView.swift */,
+				52FA3B3425D7FB9800AB3EF0 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52FA3B0D25D7E44100AB3EF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52FA3B1A25D7E54800AB3EF0 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FA3AEF25D7E15300AB3EF0 /* SharediOSmacOS (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FA3B0425D7E15300AB3EF0 /* Build configuration list for PBXNativeTarget "SharediOSmacOS (iOS)" */;
+			buildPhases = (
+				52FA3AEC25D7E15300AB3EF0 /* Sources */,
+				52FA3AED25D7E15300AB3EF0 /* Frameworks */,
+				52FA3AEE25D7E15300AB3EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharediOSmacOS (iOS)";
+			productName = "SharediOSmacOS (iOS)";
+			productReference = 52FA3AF025D7E15300AB3EF0 /* SharediOSmacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FA3AF725D7E15300AB3EF0 /* SharediOSmacOS (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FA3B0725D7E15300AB3EF0 /* Build configuration list for PBXNativeTarget "SharediOSmacOS (macOS)" */;
+			buildPhases = (
+				52FA3AF425D7E15300AB3EF0 /* Sources */,
+				52FA3AF525D7E15300AB3EF0 /* Frameworks */,
+				52FA3AF625D7E15300AB3EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharediOSmacOS (macOS)";
+			productName = "SharediOSmacOS (macOS)";
+			productReference = 52FA3AF825D7E15300AB3EF0 /* SharediOSmacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FA3AE425D7E15200AB3EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					52FA3AEF25D7E15300AB3EF0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					52FA3AF725D7E15300AB3EF0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 52FA3AE725D7E15200AB3EF0 /* Build configuration list for PBXProject "SharediOSmacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FA3AE325D7E15200AB3EF0;
+			productRefGroup = 52FA3AF125D7E15300AB3EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FA3AEF25D7E15300AB3EF0 /* SharediOSmacOS (iOS) */,
+				52FA3AF725D7E15300AB3EF0 /* SharediOSmacOS (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FA3AEE25D7E15300AB3EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA3B0025D7E15300AB3EF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA3AF625D7E15300AB3EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA3B0125D7E15300AB3EF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FA3AEC25D7E15300AB3EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA3B1B25D7E54800AB3EF0 /* LoginViewModel.swift in Sources */,
+				52FA3B2325D7E72500AB3EF0 /* LoginViewModifier.swift in Sources */,
+				52FA3AFE25D7E15300AB3EF0 /* ContentView.swift in Sources */,
+				52FA3B2F25D7ED3900AB3EF0 /* SideLoginView.swift in Sources */,
+				52FA3B3525D7FB9800AB3EF0 /* Home.swift in Sources */,
+				52FA3B2725D7E76C00AB3EF0 /* Register.swift in Sources */,
+				52FA3B1F25D7E62700AB3EF0 /* LoginButtonModifier.swift in Sources */,
+				52FA3AFC25D7E15300AB3EF0 /* SharediOSmacOSApp.swift in Sources */,
+				52FA3B2B25D7EBE400AB3EF0 /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FA3AF425D7E15300AB3EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FA3B4725D7FBF900AB3EF0 /* LoginButtonModifier.swift in Sources */,
+				52FA3B4425D7FBF700AB3EF0 /* LoginViewModifier.swift in Sources */,
+				52FA3B4125D7FBF500AB3EF0 /* Register.swift in Sources */,
+				52FA3AFF25D7E15300AB3EF0 /* ContentView.swift in Sources */,
+				52FA3B3E25D7FBF200AB3EF0 /* Login.swift in Sources */,
+				52FA3B3825D7FBEE00AB3EF0 /* Home.swift in Sources */,
+				52FA3AFD25D7E15300AB3EF0 /* SharediOSmacOSApp.swift in Sources */,
+				52FA3B3B25D7FBF000AB3EF0 /* SideLoginView.swift in Sources */,
+				52FA3B4A25D7FBFC00AB3EF0 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52FA3B0225D7E15300AB3EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FA3B0325D7E15300AB3EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		52FA3B0525D7E15300AB3EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SharediOSmacOS;
+				PRODUCT_NAME = SharediOSmacOS;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FA3B0625D7E15300AB3EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SharediOSmacOS;
+				PRODUCT_NAME = SharediOSmacOS;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FA3B0825D7E15300AB3EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SharediOSmacOS;
+				PRODUCT_NAME = SharediOSmacOS;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52FA3B0925D7E15300AB3EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SharediOSmacOS;
+				PRODUCT_NAME = SharediOSmacOS;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FA3AE725D7E15200AB3EF0 /* Build configuration list for PBXProject "SharediOSmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA3B0225D7E15300AB3EF0 /* Debug */,
+				52FA3B0325D7E15300AB3EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FA3B0425D7E15300AB3EF0 /* Build configuration list for PBXNativeTarget "SharediOSmacOS (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA3B0525D7E15300AB3EF0 /* Debug */,
+				52FA3B0625D7E15300AB3EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FA3B0725D7E15300AB3EF0 /* Build configuration list for PBXNativeTarget "SharediOSmacOS (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FA3B0825D7E15300AB3EF0 /* Debug */,
+				52FA3B0925D7E15300AB3EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FA3AE425D7E15200AB3EF0 /* Project object */;
+}
