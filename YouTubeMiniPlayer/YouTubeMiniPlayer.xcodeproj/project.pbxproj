@@ -19,7 +19,7 @@
 		52F8BF9F25D93A010006DCD1 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8BF9E25D93A010006DCD1 /* MiniPlayer.swift */; };
 		52F8BFA225D93BE80006DCD1 /* VideoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8BFA125D93BE80006DCD1 /* VideoCardView.swift */; };
 		52F8BFA525D93C8A0006DCD1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8BFA425D93C8A0006DCD1 /* Home.swift */; };
-		52F8BFA825D93FCC0006DCD1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52F8BFA725D93FCC0006DCD1 /* video.mp4 */; };
+		52F8BFAF25D9530F0006DCD1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52F8BFAE25D9530F0006DCD1 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		52F8BF9E25D93A010006DCD1 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 		52F8BFA125D93BE80006DCD1 /* VideoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCardView.swift; sourceTree = "<group>"; };
 		52F8BFA425D93C8A0006DCD1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		52F8BFA725D93FCC0006DCD1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		52F8BFAE25D9530F0006DCD1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		52F8BFAB25D9403A0006DCD1 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				52F8BFA725D93FCC0006DCD1 /* video.mp4 */,
+				52F8BFAE25D9530F0006DCD1 /* video.mp4 */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -186,8 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F8BF8325D932DC0006DCD1 /* Preview Assets.xcassets in Resources */,
+				52F8BFAF25D9530F0006DCD1 /* video.mp4 in Resources */,
 				52F8BF8025D932DC0006DCD1 /* Assets.xcassets in Resources */,
-				52F8BFA825D93FCC0006DCD1 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
