@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523E44B925DA849100EEFF5A /* SnapchatDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44B825DA849100EEFF5A /* SnapchatDiscoveryApp.swift */; };
+		523E44BB25DA849100EEFF5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44BA25DA849100EEFF5A /* ContentView.swift */; };
+		523E44BD25DA849100EEFF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523E44BC25DA849100EEFF5A /* Assets.xcassets */; };
+		523E44C025DA849100EEFF5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523E44BF25DA849100EEFF5A /* Preview Assets.xcassets */; };
+		523E44CA25DA854800EEFF5A /* video8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44C925DA854800EEFF5A /* video8.mp4 */; };
+		523E44CD25DA855300EEFF5A /* video7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44CC25DA855300EEFF5A /* video7.mp4 */; };
+		523E44D025DA855B00EEFF5A /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44CF25DA855B00EEFF5A /* video6.mp4 */; };
+		523E44D325DA856800EEFF5A /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44D225DA856800EEFF5A /* video5.mp4 */; };
+		523E44D625DA857A00EEFF5A /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44D525DA857A00EEFF5A /* video4.mp4 */; };
+		523E44D925DA858F00EEFF5A /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44D825DA858F00EEFF5A /* video3.mp4 */; };
+		523E44DC25DA85B400EEFF5A /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44DB25DA85B400EEFF5A /* video2.mp4 */; };
+		523E44DF25DA85D800EEFF5A /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 523E44DE25DA85D800EEFF5A /* video1.mp4 */; };
+		523E44E525DA871100EEFF5A /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44E425DA871100EEFF5A /* VideoPlayerViewModel.swift */; };
+		523E44E825DA886000EEFF5A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44E725DA886000EEFF5A /* Video.swift */; };
+		523E44EB25DA88ED00EEFF5A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44EA25DA88ED00EEFF5A /* VideoPlayerView.swift */; };
+		523E44EE25DA895800EEFF5A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E44ED25DA895700EEFF5A /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		523E44B525DA849100EEFF5A /* SnapchatDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523E44B825DA849100EEFF5A /* SnapchatDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatDiscoveryApp.swift; sourceTree = "<group>"; };
+		523E44BA25DA849100EEFF5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		523E44BC25DA849100EEFF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523E44BF25DA849100EEFF5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		523E44C125DA849100EEFF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523E44C925DA854800EEFF5A /* video8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video8.mp4; sourceTree = "<group>"; };
+		523E44CC25DA855300EEFF5A /* video7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video7.mp4; sourceTree = "<group>"; };
+		523E44CF25DA855B00EEFF5A /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		523E44D225DA856800EEFF5A /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		523E44D525DA857A00EEFF5A /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		523E44D825DA858F00EEFF5A /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		523E44DB25DA85B400EEFF5A /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		523E44DE25DA85D800EEFF5A /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		523E44E425DA871100EEFF5A /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		523E44E725DA886000EEFF5A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		523E44EA25DA88ED00EEFF5A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		523E44ED25DA895700EEFF5A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523E44B225DA849100EEFF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523E44AC25DA849100EEFF5A = {
+			isa = PBXGroup;
+			children = (
+				523E44B725DA849100EEFF5A /* SnapchatDiscovery */,
+				523E44B625DA849100EEFF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523E44B625DA849100EEFF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523E44B525DA849100EEFF5A /* SnapchatDiscovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523E44B725DA849100EEFF5A /* SnapchatDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				523E44E325DA867D00EEFF5A /* ViewModel */,
+				523E44E225DA865B00EEFF5A /* Model */,
+				523E44E125DA865600EEFF5A /* View */,
+				523E44C825DA853900EEFF5A /* Files */,
+				523E44B825DA849100EEFF5A /* SnapchatDiscoveryApp.swift */,
+				523E44BA25DA849100EEFF5A /* ContentView.swift */,
+				523E44BC25DA849100EEFF5A /* Assets.xcassets */,
+				523E44C125DA849100EEFF5A /* Info.plist */,
+				523E44BE25DA849100EEFF5A /* Preview Content */,
+			);
+			path = SnapchatDiscovery;
+			sourceTree = "<group>";
+		};
+		523E44BE25DA849100EEFF5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				523E44BF25DA849100EEFF5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		523E44C825DA853900EEFF5A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				523E44DE25DA85D800EEFF5A /* video1.mp4 */,
+				523E44DB25DA85B400EEFF5A /* video2.mp4 */,
+				523E44D825DA858F00EEFF5A /* video3.mp4 */,
+				523E44D525DA857A00EEFF5A /* video4.mp4 */,
+				523E44D225DA856800EEFF5A /* video5.mp4 */,
+				523E44CF25DA855B00EEFF5A /* video6.mp4 */,
+				523E44CC25DA855300EEFF5A /* video7.mp4 */,
+				523E44C925DA854800EEFF5A /* video8.mp4 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		523E44E125DA865600EEFF5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				523E44EA25DA88ED00EEFF5A /* VideoPlayerView.swift */,
+				523E44ED25DA895700EEFF5A /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		523E44E225DA865B00EEFF5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				523E44E725DA886000EEFF5A /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		523E44E325DA867D00EEFF5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				523E44E425DA871100EEFF5A /* VideoPlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523E44B425DA849100EEFF5A /* SnapchatDiscovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523E44C425DA849100EEFF5A /* Build configuration list for PBXNativeTarget "SnapchatDiscovery" */;
+			buildPhases = (
+				523E44B125DA849100EEFF5A /* Sources */,
+				523E44B225DA849100EEFF5A /* Frameworks */,
+				523E44B325DA849100EEFF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapchatDiscovery;
+			productName = SnapchatDiscovery;
+			productReference = 523E44B525DA849100EEFF5A /* SnapchatDiscovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523E44AD25DA849100EEFF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					523E44B425DA849100EEFF5A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 523E44B025DA849100EEFF5A /* Build configuration list for PBXProject "SnapchatDiscovery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523E44AC25DA849100EEFF5A;
+			productRefGroup = 523E44B625DA849100EEFF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523E44B425DA849100EEFF5A /* SnapchatDiscovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523E44B325DA849100EEFF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523E44D025DA855B00EEFF5A /* video6.mp4 in Resources */,
+				523E44D625DA857A00EEFF5A /* video4.mp4 in Resources */,
+				523E44CD25DA855300EEFF5A /* video7.mp4 in Resources */,
+				523E44C025DA849100EEFF5A /* Preview Assets.xcassets in Resources */,
+				523E44CA25DA854800EEFF5A /* video8.mp4 in Resources */,
+				523E44DC25DA85B400EEFF5A /* video2.mp4 in Resources */,
+				523E44DF25DA85D800EEFF5A /* video1.mp4 in Resources */,
+				523E44BD25DA849100EEFF5A /* Assets.xcassets in Resources */,
+				523E44D925DA858F00EEFF5A /* video3.mp4 in Resources */,
+				523E44D325DA856800EEFF5A /* video5.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523E44B125DA849100EEFF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523E44E525DA871100EEFF5A /* VideoPlayerViewModel.swift in Sources */,
+				523E44E825DA886000EEFF5A /* Video.swift in Sources */,
+				523E44BB25DA849100EEFF5A /* ContentView.swift in Sources */,
+				523E44B925DA849100EEFF5A /* SnapchatDiscoveryApp.swift in Sources */,
+				523E44EE25DA895800EEFF5A /* Home.swift in Sources */,
+				523E44EB25DA88ED00EEFF5A /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		523E44C225DA849100EEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		523E44C325DA849100EEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523E44C525DA849100EEFF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapchatDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapchatDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SnapchatDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523E44C625DA849100EEFF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SnapchatDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SnapchatDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.SnapchatDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523E44B025DA849100EEFF5A /* Build configuration list for PBXProject "SnapchatDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523E44C225DA849100EEFF5A /* Debug */,
+				523E44C325DA849100EEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523E44C425DA849100EEFF5A /* Build configuration list for PBXNativeTarget "SnapchatDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523E44C525DA849100EEFF5A /* Debug */,
+				523E44C625DA849100EEFF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523E44AD25DA849100EEFF5A /* Project object */;
+}
