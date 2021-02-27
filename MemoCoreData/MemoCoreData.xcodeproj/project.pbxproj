@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524D534125EA580400D88B21 /* MemoCoreData WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 524D534025EA580400D88B21 /* MemoCoreData WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		524D534625EA580400D88B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D534525EA580400D88B21 /* Assets.xcassets */; };
+		524D534D25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 524D534C25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		524D535225EA580400D88B21 /* MemoCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D535125EA580400D88B21 /* MemoCoreDataApp.swift */; };
+		524D535425EA580400D88B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D535325EA580400D88B21 /* ContentView.swift */; };
+		524D535625EA580400D88B21 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D535525EA580400D88B21 /* NotificationController.swift */; };
+		524D535825EA580400D88B21 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D535725EA580400D88B21 /* NotificationView.swift */; };
+		524D535A25EA580400D88B21 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D535925EA580400D88B21 /* ComplicationController.swift */; };
+		524D535C25EA580500D88B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D535B25EA580500D88B21 /* Assets.xcassets */; };
+		524D535F25EA580500D88B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524D535E25EA580500D88B21 /* Preview Assets.xcassets */; };
+		524D537425EA582E00D88B21 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 524D537225EA582E00D88B21 /* Task.xcdatamodeld */; };
+		524D537A25EA586C00D88B21 /* PersistantContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D537925EA586C00D88B21 /* PersistantContainer.swift */; };
+		524D53A625EA598C00D88B21 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D53A525EA598C00D88B21 /* Home.swift */; };
+		524D53AE25EA5B8100D88B21 /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D53AD25EA5B8100D88B21 /* AddItem.swift */; };
+		524D53B325EA5CEA00D88B21 /* ViewMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D53B225EA5CEA00D88B21 /* ViewMemo.swift */; };
+		524D53B825EA610100D88B21 /* DeleteMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D53B725EA610100D88B21 /* DeleteMemo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524D534225EA580400D88B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524D533625EA580400D88B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524D533F25EA580400D88B21;
+			remoteInfo = "MemoCoreData WatchKit App";
+		};
+		524D534E25EA580400D88B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524D533625EA580400D88B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524D534B25EA580400D88B21;
+			remoteInfo = "MemoCoreData WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		524D536725EA580500D88B21 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				524D534D25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524D536B25EA580500D88B21 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				524D534125EA580400D88B21 /* MemoCoreData WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		524D533C25EA580400D88B21 /* MemoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524D534025EA580400D88B21 /* MemoCoreData WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MemoCoreData WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524D534525EA580400D88B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524D534725EA580400D88B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524D534C25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MemoCoreData WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524D535125EA580400D88B21 /* MemoCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCoreDataApp.swift; sourceTree = "<group>"; };
+		524D535325EA580400D88B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		524D535525EA580400D88B21 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		524D535725EA580400D88B21 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		524D535925EA580400D88B21 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		524D535B25EA580500D88B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524D535E25EA580500D88B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524D536025EA580500D88B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524D536125EA580500D88B21 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		524D537325EA582E00D88B21 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
+		524D537925EA586C00D88B21 /* PersistantContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistantContainer.swift; sourceTree = "<group>"; };
+		524D53A525EA598C00D88B21 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		524D53AD25EA5B8100D88B21 /* AddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		524D53B225EA5CEA00D88B21 /* ViewMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMemo.swift; sourceTree = "<group>"; };
+		524D53B725EA610100D88B21 /* DeleteMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMemo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524D534925EA580400D88B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524D533525EA580400D88B21 = {
+			isa = PBXGroup;
+			children = (
+				524D537825EA583D00D88B21 /* Shared */,
+				524D534425EA580400D88B21 /* MemoCoreData WatchKit App */,
+				524D535025EA580400D88B21 /* MemoCoreData WatchKit Extension */,
+				524D533D25EA580400D88B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524D533D25EA580400D88B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524D533C25EA580400D88B21 /* MemoCoreData.app */,
+				524D534025EA580400D88B21 /* MemoCoreData WatchKit App.app */,
+				524D534C25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524D534425EA580400D88B21 /* MemoCoreData WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				524D534525EA580400D88B21 /* Assets.xcassets */,
+				524D534725EA580400D88B21 /* Info.plist */,
+			);
+			path = "MemoCoreData WatchKit App";
+			sourceTree = "<group>";
+		};
+		524D535025EA580400D88B21 /* MemoCoreData WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				524D535125EA580400D88B21 /* MemoCoreDataApp.swift */,
+				524D535325EA580400D88B21 /* ContentView.swift */,
+				524D535525EA580400D88B21 /* NotificationController.swift */,
+				524D535725EA580400D88B21 /* NotificationView.swift */,
+				524D535925EA580400D88B21 /* ComplicationController.swift */,
+				524D535B25EA580500D88B21 /* Assets.xcassets */,
+				524D536025EA580500D88B21 /* Info.plist */,
+				524D536125EA580500D88B21 /* PushNotificationPayload.apns */,
+				524D535D25EA580500D88B21 /* Preview Content */,
+			);
+			path = "MemoCoreData WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		524D535D25EA580500D88B21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				524D535E25EA580500D88B21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		524D537825EA583D00D88B21 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				524D53A425EA597F00D88B21 /* ViewModel */,
+				524D53A325EA597900D88B21 /* Model */,
+				524D53A225EA596E00D88B21 /* View */,
+				524D537225EA582E00D88B21 /* Task.xcdatamodeld */,
+				524D537925EA586C00D88B21 /* PersistantContainer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		524D53A225EA596E00D88B21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524D53A525EA598C00D88B21 /* Home.swift */,
+				524D53AD25EA5B8100D88B21 /* AddItem.swift */,
+				524D53B225EA5CEA00D88B21 /* ViewMemo.swift */,
+				524D53B725EA610100D88B21 /* DeleteMemo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		524D53A325EA597900D88B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		524D53A425EA597F00D88B21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524D533B25EA580400D88B21 /* MemoCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524D536C25EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData" */;
+			buildPhases = (
+				524D533A25EA580400D88B21 /* Resources */,
+				524D536B25EA580500D88B21 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524D534325EA580400D88B21 /* PBXTargetDependency */,
+			);
+			name = MemoCoreData;
+			productName = MemoCoreData;
+			productReference = 524D533C25EA580400D88B21 /* MemoCoreData.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		524D533F25EA580400D88B21 /* MemoCoreData WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524D536825EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData WatchKit App" */;
+			buildPhases = (
+				524D533E25EA580400D88B21 /* Resources */,
+				524D536725EA580500D88B21 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524D534F25EA580400D88B21 /* PBXTargetDependency */,
+			);
+			name = "MemoCoreData WatchKit App";
+			productName = "MemoCoreData WatchKit App";
+			productReference = 524D534025EA580400D88B21 /* MemoCoreData WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		524D534B25EA580400D88B21 /* MemoCoreData WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524D536425EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData WatchKit Extension" */;
+			buildPhases = (
+				524D534825EA580400D88B21 /* Sources */,
+				524D534925EA580400D88B21 /* Frameworks */,
+				524D534A25EA580400D88B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MemoCoreData WatchKit Extension";
+			productName = "MemoCoreData WatchKit Extension";
+			productReference = 524D534C25EA580400D88B21 /* MemoCoreData WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524D533625EA580400D88B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					524D533B25EA580400D88B21 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					524D533F25EA580400D88B21 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					524D534B25EA580400D88B21 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 524D533925EA580400D88B21 /* Build configuration list for PBXProject "MemoCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524D533525EA580400D88B21;
+			productRefGroup = 524D533D25EA580400D88B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524D533B25EA580400D88B21 /* MemoCoreData */,
+				524D533F25EA580400D88B21 /* MemoCoreData WatchKit App */,
+				524D534B25EA580400D88B21 /* MemoCoreData WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524D533A25EA580400D88B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524D533E25EA580400D88B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524D534625EA580400D88B21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524D534A25EA580400D88B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524D535F25EA580500D88B21 /* Preview Assets.xcassets in Resources */,
+				524D535C25EA580500D88B21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524D534825EA580400D88B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524D537425EA582E00D88B21 /* Task.xcdatamodeld in Sources */,
+				524D535625EA580400D88B21 /* NotificationController.swift in Sources */,
+				524D535425EA580400D88B21 /* ContentView.swift in Sources */,
+				524D53B825EA610100D88B21 /* DeleteMemo.swift in Sources */,
+				524D535A25EA580400D88B21 /* ComplicationController.swift in Sources */,
+				524D535225EA580400D88B21 /* MemoCoreDataApp.swift in Sources */,
+				524D53AE25EA5B8100D88B21 /* AddItem.swift in Sources */,
+				524D53B325EA5CEA00D88B21 /* ViewMemo.swift in Sources */,
+				524D535825EA580400D88B21 /* NotificationView.swift in Sources */,
+				524D53A625EA598C00D88B21 /* Home.swift in Sources */,
+				524D537A25EA586C00D88B21 /* PersistantContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524D534325EA580400D88B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524D533F25EA580400D88B21 /* MemoCoreData WatchKit App */;
+			targetProxy = 524D534225EA580400D88B21 /* PBXContainerItemProxy */;
+		};
+		524D534F25EA580400D88B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524D534B25EA580400D88B21 /* MemoCoreData WatchKit Extension */;
+			targetProxy = 524D534E25EA580400D88B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		524D536225EA580500D88B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524D536325EA580500D88B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524D536525EA580500D88B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoCoreData WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MemoCoreData WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		524D536625EA580500D88B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoCoreData WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "MemoCoreData WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		524D536925EA580500D88B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				IBSC_MODULE = MemoCoreData_WatchKit_Extension;
+				INFOPLIST_FILE = "MemoCoreData WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		524D536A25EA580500D88B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				IBSC_MODULE = MemoCoreData_WatchKit_Extension;
+				INFOPLIST_FILE = "MemoCoreData WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		524D536D25EA580500D88B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		524D536E25EA580500D88B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM9A36DEYH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginger.MemoCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524D533925EA580400D88B21 /* Build configuration list for PBXProject "MemoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524D536225EA580500D88B21 /* Debug */,
+				524D536325EA580500D88B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524D536425EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524D536525EA580500D88B21 /* Debug */,
+				524D536625EA580500D88B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524D536825EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524D536925EA580500D88B21 /* Debug */,
+				524D536A25EA580500D88B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524D536C25EA580500D88B21 /* Build configuration list for PBXNativeTarget "MemoCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524D536D25EA580500D88B21 /* Debug */,
+				524D536E25EA580500D88B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		524D537225EA582E00D88B21 /* Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				524D537325EA582E00D88B21 /* Task.xcdatamodel */,
+			);
+			currentVersion = 524D537325EA582E00D88B21 /* Task.xcdatamodel */;
+			path = Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 524D533625EA580400D88B21 /* Project object */;
+}
